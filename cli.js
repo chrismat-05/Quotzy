@@ -5,13 +5,13 @@ const args = process.argv.slice(2);
 
 if (args.includes('--help')) {
   console.log(`
-📦 Ran-Quote-dom — Random Quote Generator by Chris
+📦 quotzy  — Random Quote Generator by Chris
 
 Usage:
-  ran-quote-dom           → Get a quote from a random category
-  ran-quote-dom --category <name> → Get a quote from a specific category
-  ran-quote-dom --list    → List available categories
-  ran-quote-dom --help    → Show this help message
+  quotzy            → Get a quote from a random category
+  quotzy --category <name> → Get a quote from a specific category
+  quotzy --list    → List available categories
+  quotzy --help    → Show this help message
   `);
   process.exit(0);
 }

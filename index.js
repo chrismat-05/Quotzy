@@ -1,9 +1,9 @@
-import christian from './data/christian.js';
-import deep from './data/deep.js';
-import fun from './data/fun.js';
-import inspiration from './data/inspiration.js';
-import movies from './data/movies.js';
-import verses from './data/verses.js';
+import Christian from './data/christian.js';
+import Deep from './data/deep.js';
+import Fun from './data/fun.js';
+import Inspiration from './data/inspiration.js';
+import Movies from './data/movies.js';
+import Verses from './data/verses.js';
 
 const allCategories = {
   Christian,

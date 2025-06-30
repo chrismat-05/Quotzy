@@ -1,8 +1,8 @@
-# 🎲 Ran-Quote-dom
+# 🎲 quotzy
 
 > A customizable random quote generator — straight from CLI or JS.
 
-**Ran-Quote-dom** lets you pick random quotes from categories like:
+**quotzy** lets you pick random quotes from categories like:
 🎬 Movies, 📖 Verses, 🤪 Fun, ✝️ Christian, 🌟 Inspiration, 🧠 Deep
 
 ---
@@ -12,8 +12,8 @@
 You can run directly from GitHub (or install locally):
 
 ```bash
-git clone https://github.com/yourusername/ran-quote-dom.git
-cd ran-quote-dom
+git clone https://github.com/chrismat-05/quotzy.git
+cd quotzy
 npm install
 ```
 
@@ -35,7 +35,7 @@ node cli.js --help
 
 ### JS Module
 ```
-import { getRandomQuote, getCategories } from 'ran-quote-dom';
+import { getRandomQuote, getCategories } from 'quotzy';
 
 const quote = getRandomQuote();
 console.log(quote); // { quote, author, category }

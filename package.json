@@ -1,5 +1,5 @@
 {
-  "name": "ran-quote-dom",
+  "name": "quotzy",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,9 @@
   "keywords": [],
   "author": "Chris Mathew Aje",
   "license": "ISC",
-  "description": "Ran-Quote-dom is a quote generator CLI and JS module that serves you random quotes by category — movies, verses, fun, inspiration, and more!",
+  "description": "quotzy is a quote generator CLI and JS module that serves you random quotes by category — movies, verses, fun, inspiration, and more!",
   "type": "module",
   "bin": {
-    "ran-quote-dom": "./cli.js"
+    "quotzy": "./cli.js"
   }
 }
