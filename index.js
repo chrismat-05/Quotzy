@@ -6,12 +6,12 @@ import movies from './data/movies.js';
 import verses from './data/verses.js';
 
 const allCategories = {
-  christian,
-  deep,
-  fun,
-  inspiration,
-  movies,
-  verses
+  Christian,
+  Deep,
+  Fun,
+  Inspiration,
+  Movies,
+  Verses
 };
 
 export function getRandomQuote(category = null) {

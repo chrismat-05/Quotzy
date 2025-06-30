@@ -29,4 +29,4 @@ if (categoryIndex !== -1 && args[categoryIndex + 1]) {
 }
 
 const quote = getRandomQuote(category);
-console.log(`📢 ${quote.quote} — ${quote.author} [${quote.category}]`);
+console.log(`📢 ${quote.quote} — ${quote.author}`);
