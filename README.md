@@ -55,4 +55,4 @@ console.log(getCategories());
 ## Creator
 Chris Mathew Aje
 [Visit](https://thecma.xyz/)
-[Github](https://github.com/chrismat-05))
+[Github](https://github.com/chrismat-05)
