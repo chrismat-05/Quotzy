@@ -9,5 +9,8 @@
   "author": "Chris Mathew Aje",
   "license": "ISC",
   "description": "Ran-Quote-dom is a quote generator CLI and JS module that serves you random quotes by category — movies, verses, fun, inspiration, and more!",
-  "type": "module"
+  "type": "module",
+  "bin": {
+    "ran-quote-dom": "./cli.js"
+  }
 }
