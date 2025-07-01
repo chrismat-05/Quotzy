@@ -15,22 +15,23 @@ You can run directly from GitHub (or install locally):
 git clone https://github.com/chrismat-05/quotzy.git
 cd quotzy
 npm install
+npm link
 ```
 
 ## Usage
 ### CLI
 ```
 # Random quote
-node cli.js
+quotzy
 
 # Quote from category
-node cli.js --category fun
+quotzy -- fun
 
 # List categories
-node cli.js --list
+quotzy --list
 
 # Help
-node cli.js --help
+quotzy --help
 ```
 
 ### JS Module

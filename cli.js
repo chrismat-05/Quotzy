@@ -9,7 +9,7 @@ if (args.includes('--help')) {
 
 Usage:
   quotzy            → Get a quote from a random category
-  quotzy --category <name> → Get a quote from a specific category
+  quotzy -- <name> → Get a quote from a specific category
   quotzy --list    → List available categories
   quotzy --help    → Show this help message
   `);
